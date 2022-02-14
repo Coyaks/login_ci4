@@ -1,0 +1,30 @@
+CRITICAL - 2022-02-14 14:31:54 --> Invalid file: signin.php
+#0 C:\wamp64\www\login_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signin.php')
+#1 C:\wamp64\www\login_ci4\system\Common.php(1089): CodeIgniter\View\View->render('signin', Array, true)
+#2 C:\wamp64\www\login_ci4\app\Controllers\SigninController.php(11): view('signin')
+#3 C:\wamp64\www\login_ci4\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\wamp64\www\login_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\wamp64\www\login_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\login_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-14 14:33:45 --> authGuard filter must have a matching alias defined.
+#0 C:\wamp64\www\login_ci4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+#1 C:\wamp64\www\login_ci4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+#2 C:\wamp64\www\login_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\login_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 14:37:23 --> authGuard filter must have a matching alias defined.
+#0 C:\wamp64\www\login_ci4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authGuard')
+#1 C:\wamp64\www\login_ci4\system\CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter('authGuard', 'before')
+#2 C:\wamp64\www\login_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\login_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 14:38:03 --> Invalid file: signin.php
+#0 C:\wamp64\www\login_ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signin.php')
+#1 C:\wamp64\www\login_ci4\system\Common.php(1089): CodeIgniter\View\View->render('signin', Array, true)
+#2 C:\wamp64\www\login_ci4\app\Controllers\SigninController.php(11): view('signin')
+#3 C:\wamp64\www\login_ci4\system\CodeIgniter.php(825): App\Controllers\SigninController->index()
+#4 C:\wamp64\www\login_ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#5 C:\wamp64\www\login_ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\login_ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
